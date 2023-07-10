@@ -35,11 +35,11 @@ public class mathplugin extends CordovaPlugin {
                  callback.success(""+ (p1+p2));
              }catch(Exception ex)
              {
-                 callback.error("something went wrong")
+                 callback.error("something went wrong");
              }
         }else
         {
-            callback.error("please do not pass null value")
+            callback.error("please do not pass null value");
         }
     }
 }
